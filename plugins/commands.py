@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🔔 ᴜᴘᴅᴀᴛᴇꜱ ', url='https://telegram.me/LazyDeveloper')
+                InlineKeyboardButton('🔔 ᴜᴘᴅᴀᴛᴇꜱ ', url='https://t.me/Anna_movies2')
             ],
             [
-                InlineKeyboardButton('⚡ ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇꜱ', url=f"https://telegram.me/real_MoviesAdda1"),
+                InlineKeyboardButton('⚡ ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇꜱ', url=f"https://t.me/Anna_movies2"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
