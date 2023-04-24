@@ -344,7 +344,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             title = query.message.chat.title
 
         else:
-            return await query.answer('♥️ Love @LazyDeveloper ♥️')
+            return await query.answer('@Tellybotzz')
 
         st = await client.get_chat_member(grp_id, userid)
         if (st.status == enums.ChatMemberStatus.OWNER) or (str(userid) in ADMINS):
@@ -398,7 +398,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=keyboard,
             parse_mode=enums.ParseMode.MARKDOWN
         )
-        return await query.answer('♥️ Love @LazyDeveloper ♥️')
+        return await query.answer('@Anna_movies2')
     elif "connectcb" in query.data:
         await query.answer()
 
@@ -712,9 +712,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "getlazylink":
         buttons = [
             [
-            InlineKeyboardButton("D͢o͢n͢a͢t͢e͢ L͢a͢z͢y͢D͢e͢v͢", callback_data="linkdonatelazydev"),
+            InlineKeyboardButton("Donate", callback_data="linkdonatelazydev"),
             ],
-            [ InlineKeyboardButton("<- G̳O̳ ̳B̳A̳C̳K̳  ⨳", callback_data="lazyhome") ]
+            [ InlineKeyboardButton("Back  ⨳", callback_data="lazyhome") ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -724,7 +724,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "linkdonatelazydev":
         buttons = [
-            [ InlineKeyboardButton("<- G̳O̳ ̳B̳A̳C̳K̳  ⨳", callback_data="getlazylink") ]
+            [ InlineKeyboardButton("<- Back  ⨳", callback_data="getlazylink") ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
