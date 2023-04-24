@@ -48,7 +48,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('⚡ ᴜᴘᴅᴀᴛᴇꜱ ⚡', url=f"https://t.me/Anna_movies2"),
-            InlineKeyboardButton('♚ ᴏᴡɴᴇʀ ♚', url='https://t.me/LazyDeveloper')
+            InlineKeyboardButton('♚ ᴏᴡɴᴇʀ ♚', user_id=1740849725)
             ],[
              InlineKeyboardButton('〄 ʜᴇʟᴘ 〄', callback_data='help'),
             InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
@@ -95,7 +95,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('⚡ ᴜᴘᴅᴀᴛᴇꜱ ⚡', url=f"https://t.me/Anna_movies2"),
-            InlineKeyboardButton('♚ ᴏᴡɴᴇʀ ♚', url='https://t.me/LazyDeveloper')
+            InlineKeyboardButton('♚ ᴏᴡɴᴇʀ ♚', user_id=1740849725)
             ],[
              InlineKeyboardButton('〄 ʜᴇʟᴘ 〄', callback_data='help'),
             InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
